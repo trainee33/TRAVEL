@@ -37,7 +37,7 @@ $(function() {
    $(document).on('scroll', function() {
       
       $('.burger__top').css('background-color', '#ccc');
-      $('.burger__bottom').css('background', '#ccc url("../images/icons/arrow-down.png") bottom center no-repeat');
+      $('.burger__bottom').css('background-color', '#ccc');
       
    });
    

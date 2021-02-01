@@ -25,7 +25,9 @@
 			border: 1px solid #ffffff;
 			background-color: inherit;
 			z-index: 5;
-			background: url("../images/icons/arrow.png") center no-repeat;
+			background-image: url("../images/icons/arrow.png");
+			background-position: center;
+			background-repeat: no-repeat;
 			cursor: pointer;
 			//transform: rotate(180deg);
 			transform: translateY(-50%) rotate(180deg);
@@ -45,7 +47,9 @@
 				width: 40px;
 				height: 20px;
 				top: -25px;
-				background: url("../images/icons/arrow-left.png") center no-repeat;
+				background-image: url("../images/icons/arrow-left.png");
+				background-position: center;
+				background-repeat: no-repeat;
 				border: none;
 				transform: rotate(180deg);
 			}
@@ -60,7 +64,9 @@
 			border: 1px solid #ffffff;
 			background-color: inherit;
 			z-index: 5;
-			background: url("../images/icons/arrow.png") center no-repeat;
+			background-image: url("../images/icons/arrow.png");
+			background-position: center;
+			background-repeat: no-repeat;
 			cursor: pointer;
 			transform: translateY(-50%);
 			@media (max-width: 1200px) {
@@ -80,7 +86,9 @@
 				height: 20px;
 				top: -15px;
 				//background: url("../images/icons/arrow2.png") center/60% no-repeat;
-				background: url("../images/icons/arrow-left.png") center no-repeat;
+				background-image: url("../images/icons/arrow-left.png");
+				background-position: center;
+				background-repeat: no-repeat;
 				border: none;
 			}
 		}
@@ -247,7 +255,9 @@
 	// .question-program-slider__text
 	&__text {
 		margin-right: 130px;
-		background: url('../images/icons/vopros_8729.png') left center no-repeat;
+		background-image: url('../images/icons/vopros_8729.png');
+		background-position: left center;
+		background-repeat: no-repeat;
 		padding-left: 62px;
 		@media (max-width: 992px) {
 			margin: 0;
@@ -255,7 +265,9 @@
 		}
 		@media (max-width: 760px) {
 			padding-top: 40px;
-			background: url('../images/icons/vopros_8729.png') top center no-repeat;
+			background-image: url('../images/icons/vopros_8729.png');
+			background-position: top center;
+			background-repeat: no-repeat;
 			padding-left: 0;
 			margin-bottom: 20px;
 		}

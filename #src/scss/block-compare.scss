@@ -30,7 +30,9 @@
 		text-transform: uppercase;
 		letter-spacing: 0.025em;
 		color: #c74e1c;
-		background: url('../images/icons/close.png') left no-repeat;
+		background-image: url('../images/icons/close.png');
+		background-position: left;
+		background-repeat: no-repeat;
 		padding-left: 30px;
 		@media (max-width: 992px) {
 			font-size: 14px;

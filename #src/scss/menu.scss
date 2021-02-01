@@ -233,7 +233,10 @@
 					right: 20px;
 					width: 10px;
 					height: 10px;
-					background: url('../images/icons/right_icon.png') center/cover no-repeat;
+					background-image: url('../images/icons/right_icon.png');
+					background-position: center;
+					background-size: cover;
+					background-repeat: no-repeat;
 					cursor: pointer;
 				}
 			}
@@ -371,7 +374,8 @@
 					right: 0;
 					width: 20px;
 					height: 20px;
-					background: url('../images/icons/plus.png') no-repeat;
+					background-image: url('../images/icons/plus.png');
+					background-repeat: no-repeat;
 				}
 			}
 		}
@@ -402,7 +406,8 @@
 				right: 0;
 				width: 20px;
 				height: 20px;
-				background: url('../images/icons/plus.png') no-repeat;
+				background-image: url('../images/icons/plus.png');
+				background-repeat: no-repeat;
 			}
 		}
 	}
@@ -505,7 +510,9 @@
 		line-height: 36px;
 		letter-spacing: 0.01em;
 		color: #444444;
-		background: url('../images/icons/right_icon-arrow.png') left center no-repeat;
+		background-image: url('../images/icons/right_icon-arrow.png');
+		background-position: left center;
+		background-repeat: no-repeat;
 		padding-left: 15px;
 		@media (min-width: 992px) {
 			&:hover {

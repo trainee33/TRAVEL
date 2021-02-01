@@ -1,5 +1,8 @@
 .hero {
-	background: url('../images/page/foto_6305.jpg') center/cover no-repeat;
+	background-image: url('../images/page/foto_6305.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
 	margin-bottom: 107px;
 	@media (max-width: 992px) {
 		margin-bottom: 98px;
@@ -157,7 +160,9 @@
 		font-weight: 400;
 		letter-spacing: 0.01em;
 		color: #ffffff;
-		background: url('../images/page/calendar_6624.png') left center no-repeat;
+		background-image: url('../images/page/calendar_6624.png');
+		background-position: left center;
+		background-repeat: no-repeat;
 		padding-left: 72px;
 		transform: translateX(-5px);
 		@media (max-width: 992px) {
@@ -177,7 +182,10 @@
 			line-height: 17px;
 			max-width: 285px;
 			padding-left: 40px;
-			background: url('../images/page/calendar_6624.png') left center/11% no-repeat;
+			background-image: url('../images/page/calendar_6624.png');
+			background-position: left center;
+			background-size: 11%;
+			background-repeat: no-repeat;
 		}
 	}
 }

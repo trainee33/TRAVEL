@@ -44,7 +44,9 @@
 		border: 2px solid #c74e1c;
 		z-index: 15;
 		background-color: inherit;
-		background: url('../images/icons/polygon_1_8678.png') 60% center no-repeat;
+		background-image: url('../images/icons/polygon_1_8678.png');
+		background-position: 60% center;
+		background-repeat: no-repeat;
 	}
 }
 

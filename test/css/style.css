@@ -536,7 +536,9 @@ body.ie ._ibg img {
   height: 24px;
   margin-top: 14px;
   margin-right: 38px;
-  background: url("../images/page/lupa_sm_7981.png") center center no-repeat;
+  background-image: url("../images/page/lupa_sm_7981.png");
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .header__burger {
@@ -581,7 +583,9 @@ body.ie ._ibg img {
   width: 53px;
   padding: 5px;
   border-radius: 3px;
-  background: url("../images/icons/arrow-down.png") bottom center no-repeat;
+  background-image: url("../images/icons/arrow-down.png");
+  background-position: bottom center;
+  background-repeat: no-repeat;
   padding-bottom: 10px;
   z-index: 100;
 }
@@ -621,7 +625,8 @@ body.ie ._ibg img {
   left: -20px;
   width: 25px;
   height: 25px;
-  background: url("../images/icons/cursor.png") no-repeat;
+  background-image: url("../images/icons/cursor.png");
+  background-repeat: no-repeat;
 }
 
 .header__lines {
@@ -738,7 +743,10 @@ body.ie ._ibg img {
 }
 
 .hero {
-  background: url("../images/page/foto_6305.jpg") center/cover no-repeat;
+  background-image: url("../images/page/foto_6305.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   margin-bottom: 107px;
 }
 
@@ -816,7 +824,9 @@ body.ie ._ibg img {
   font-weight: 400;
   letter-spacing: 0.01em;
   color: #ffffff;
-  background: url("../images/page/calendar_6624.png") left center no-repeat;
+  background-image: url("../images/page/calendar_6624.png");
+  background-position: left center;
+  background-repeat: no-repeat;
   padding-left: 72px;
   -webkit-transform: translateX(-5px);
       -ms-transform: translateX(-5px);
@@ -1191,7 +1201,9 @@ body.ie ._ibg img {
   line-height: 36px;
   letter-spacing: 0.01em;
   color: #444444;
-  background: url("../images/icons/right_icon-arrow.png") left center no-repeat;
+  background-image: url("../images/icons/right_icon-arrow.png");
+  background-position: left center;
+  background-repeat: no-repeat;
   padding-left: 15px;
 }
 
@@ -1748,7 +1760,9 @@ body.ie ._ibg img {
 
 .program-item .block-program__link:first-child {
   opacity: 0.7;
-  background: url("../images/icons/view.png") center no-repeat;
+  background-image: url("../images/icons/view.png");
+  background-position: center;
+  background-repeat: no-repeat;
   margin-bottom: 20px;
 }
 
@@ -1758,12 +1772,16 @@ body.ie ._ibg img {
 
 .program-item .block-program__link:last-child {
   opacity: 0.7;
-  background: url("../images/icons/compare.png") center no-repeat;
+  background-image: url("../images/icons/compare.png");
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .program-item .block-program__link:last-child:hover {
   opacity: 1;
-  background: url("../images/icons/compare2.png") center no-repeat;
+  background-image: url("../images/icons/compare2.png");
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .info-program-price {
@@ -1857,14 +1875,18 @@ body.ie ._ibg img {
   display: block;
   width: 35px;
   height: 35px;
-  background: url("../images/icons/plus.png") right no-repeat;
+  background-image: url("../images/icons/plus.png");
+  background-position: right;
+  background-repeat: no-repeat;
   -webkit-transition: all .5s;
   -o-transition: all .5s;
   transition: all .5s;
 }
 
 .question-program-price .active {
-  background: url("../images/icons/close.png") right no-repeat;
+  background-image: url("../images/icons/close.png");
+  background-position: right;
+  background-repeat: no-repeat;
 }
 
 .question-program-price__items {
@@ -1901,7 +1923,9 @@ body.ie ._ibg img {
   letter-spacing: 0.005em;
   color: #c74e1c;
   text-align: left;
-  background: url("../images/icons/download2_8671.png") left 30% no-repeat;
+  background-image: url("../images/icons/download2_8671.png");
+  background-position: top 7px left;
+  background-repeat: no-repeat;
   padding: 0 20px 15px;
 }
 
@@ -1993,7 +2017,9 @@ body.ie ._ibg img {
   border: 2px solid #c74e1c;
   z-index: 15;
   background-color: inherit;
-  background: url("../images/icons/polygon_1_8678.png") 60% center no-repeat;
+  background-image: url("../images/icons/polygon_1_8678.png");
+  background-position: 60% center;
+  background-repeat: no-repeat;
 }
 
 .content-program-video {
@@ -2074,7 +2100,9 @@ body.ie ._ibg img {
   border: 1px solid #ffffff;
   background-color: inherit;
   z-index: 5;
-  background: url("../images/icons/arrow.png") center no-repeat;
+  background-image: url("../images/icons/arrow.png");
+  background-position: center;
+  background-repeat: no-repeat;
   cursor: pointer;
   -webkit-transform: translateY(-50%) rotate(180deg);
       -ms-transform: translateY(-50%) rotate(180deg);
@@ -2091,7 +2119,9 @@ body.ie ._ibg img {
   border: 1px solid #ffffff;
   background-color: inherit;
   z-index: 5;
-  background: url("../images/icons/arrow.png") center no-repeat;
+  background-image: url("../images/icons/arrow.png");
+  background-position: center;
+  background-repeat: no-repeat;
   cursor: pointer;
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
@@ -2184,7 +2214,9 @@ body.ie ._ibg img {
 
 .question-program-slider__text {
   margin-right: 130px;
-  background: url("../images/icons/vopros_8729.png") left center no-repeat;
+  background-image: url("../images/icons/vopros_8729.png");
+  background-position: left center;
+  background-repeat: no-repeat;
   padding-left: 62px;
 }
 
@@ -2287,7 +2319,9 @@ body.ie ._ibg img {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url("../images/page/foto_8750.png") center no-repeat;
+  background-image: url("../images/page/foto_8750.png");
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .footer__top {
@@ -2618,7 +2652,9 @@ body.ie ._ibg img {
   text-transform: uppercase;
   letter-spacing: 0.025em;
   color: #c74e1c;
-  background: url("../images/icons/close.png") left center no-repeat;
+  background-image: url("../images/icons/close.png");
+  background-position: left center;
+  background-repeat: no-repeat;
   padding-left: 50px;
 }
 
@@ -2738,7 +2774,9 @@ body.ie ._ibg img {
   text-transform: uppercase;
   letter-spacing: 0.025em;
   color: #c74e1c;
-  background: url("../images/icons/close.png") left no-repeat;
+  background-image: url("../images/icons/close.png");
+  background-position: left;
+  background-repeat: no-repeat;
   padding-left: 30px;
 }
 
@@ -3080,7 +3118,10 @@ body.ie ._ibg img {
     right: 20px;
     width: 10px;
     height: 10px;
-    background: url("../images/icons/right_icon.png") center/cover no-repeat;
+    background-image: url("../images/icons/right_icon.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     cursor: pointer;
   }
 
@@ -3122,7 +3163,8 @@ body.ie ._ibg img {
     right: 0;
     width: 20px;
     height: 20px;
-    background: url("../images/icons/plus.png") no-repeat;
+    background-image: url("../images/icons/plus.png");
+    background-repeat: no-repeat;
   }
 
   .menu-type__link {
@@ -3136,7 +3178,8 @@ body.ie ._ibg img {
     right: 0;
     width: 20px;
     height: 20px;
-    background: url("../images/icons/plus.png") no-repeat;
+    background-image: url("../images/icons/plus.png");
+    background-repeat: no-repeat;
   }
 
   .language-menu {
@@ -3775,7 +3818,9 @@ body.ie ._ibg img {
 
   .question-program-slider__text {
     padding-top: 40px;
-    background: url("../images/icons/vopros_8729.png") top center no-repeat;
+    background-image: url("../images/icons/vopros_8729.png");
+    background-position: top center;
+    background-repeat: no-repeat;
     padding-left: 0;
     margin-bottom: 20px;
   }
@@ -3932,7 +3977,10 @@ body.ie ._ibg img {
     line-height: 17px;
     max-width: 285px;
     padding-left: 40px;
-    background: url("../images/page/calendar_6624.png") left center/11% no-repeat;
+    background-image: url("../images/page/calendar_6624.png");
+    background-position: left center;
+    background-size: 11%;
+    background-repeat: no-repeat;
   }
 
   .header-menu__close {
@@ -4158,10 +4206,6 @@ body.ie ._ibg img {
     width: calc(100% - 30px);
   }
 
-  .question-program-price__link {
-    background: url("../images/icons/download2_8671.png") left 7% no-repeat;
-  }
-
   .price-item__icon {
     margin-right: 0;
     margin-top: 20px;
@@ -4186,7 +4230,9 @@ body.ie ._ibg img {
     width: 40px;
     height: 20px;
     top: -25px;
-    background: url("../images/icons/arrow-left.png") center no-repeat;
+    background-image: url("../images/icons/arrow-left.png");
+    background-position: center;
+    background-repeat: no-repeat;
     border: none;
     -webkit-transform: rotate(180deg);
         -ms-transform: rotate(180deg);
@@ -4198,7 +4244,9 @@ body.ie ._ibg img {
     width: 40px;
     height: 20px;
     top: -15px;
-    background: url("../images/icons/arrow-left.png") center no-repeat;
+    background-image: url("../images/icons/arrow-left.png");
+    background-position: center;
+    background-repeat: no-repeat;
     border: none;
   }
 
@@ -4349,26 +4397,26 @@ body.ie ._ibg img {
   }
 }
 @supports (-webkit-appearance:none){
-.header__search{background:url("../images/page/lupa_sm_7981.webp") center center no-repeat}
-.header .burger__bottom{background:url("../images/icons/arrow-down.webp") bottom center no-repeat}
-.header .burger__prompt::before{background:url("../images/icons/cursor.webp") no-repeat}
-.hero{background:url("../images/page/foto_6305.webp") center/cover no-repeat}
-.bottom-hero__info{background:url("../images/page/calendar_6624.webp") left center no-repeat}
+.header__search{background-image:url("../images/page/lupa_sm_7981.webp")}
+.header .burger__bottom{background-image:url("../images/icons/arrow-down.webp")}
+.header .burger__prompt::before{background-image:url("../images/icons/cursor.webp")}
+.hero{background-image:url("../images/page/foto_6305.webp")}
+.bottom-hero__info{background-image:url("../images/page/calendar_6624.webp")}
 .current::before{background:url("../images/icons/close2.webp") center/60% no-repeat !important}
-.submenu-course__link,.submenu-type__link{background:url("../images/icons/right_icon-arrow.webp") left center no-repeat}
-.program-item .block-program__link:first-child{background:url("../images/icons/view.webp") center no-repeat}
-.program-item .block-program__link:last-child{background:url("../images/icons/compare.webp") center no-repeat}
-.program-item .block-program__link:last-child:hover{background:url("../images/icons/compare2.webp") center no-repeat}
-.question-program-price__close{background:url("../images/icons/plus.webp") right no-repeat}
-.question-program-price .active{background:url("../images/icons/close.webp") right no-repeat}
-.question-program-price__link{background:url("../images/icons/download2_8671.webp") left 30% no-repeat}
-.video-program__btn{background:url("../images/icons/polygon_1_8678.webp") 60% center no-repeat}
-.program-slider__items .slick-next{background:url("../images/icons/arrow.webp") center no-repeat}
-.program-slider__items .slick-prev{background:url("../images/icons/arrow.webp") center no-repeat}
-.question-program-slider__text{background:url("../images/icons/vopros_8729.webp") left center no-repeat}
-.footer::after{background:url("../images/page/foto_8750.webp") center no-repeat}
-.popup__close{background:url("../images/icons/close.webp") left center no-repeat}
-.compare__close{background:url("../images/icons/close.webp") left no-repeat}
+.submenu-course__link,.submenu-type__link{background-image:url("../images/icons/right_icon-arrow.webp")}
+.program-item .block-program__link:first-child{background-image:url("../images/icons/view.webp")}
+.program-item .block-program__link:last-child{background-image:url("../images/icons/compare.webp")}
+.program-item .block-program__link:last-child:hover{background-image:url("../images/icons/compare2.webp")}
+.question-program-price__close{background-image:url("../images/icons/plus.webp")}
+.question-program-price .active{background-image:url("../images/icons/close.webp")}
+.question-program-price__link{background-image:url("../images/icons/download2_8671.webp")}
+.video-program__btn{background-image:url("../images/icons/polygon_1_8678.webp")}
+.program-slider__items .slick-next{background-image:url("../images/icons/arrow.webp")}
+.program-slider__items .slick-prev{background-image:url("../images/icons/arrow.webp")}
+.question-program-slider__text{background-image:url("../images/icons/vopros_8729.webp")}
+.footer::after{background-image:url("../images/page/foto_8750.webp")}
+.popup__close{background-image:url("../images/icons/close.webp")}
+.compare__close{background-image:url("../images/icons/close.webp")}
 }
 
  @media (min-width: 990px){
@@ -4422,9 +4470,9 @@ body.ie ._ibg img {
  @media (max-width: 1150px){
 
 @supports (-webkit-appearance:none){
-.top-menu__item:nth-child(1)::before,.top-menu__item:nth-child(2)::before,.top-menu__item:nth-child(6)::before{background:url("../images/icons/right_icon.webp") center/cover no-repeat}
-.menu-type__item:nth-child(1)::before,.menu-type__item:nth-child(6)::before{background:url("../images/icons/plus.webp") no-repeat}
-.menu-course__item::before{background:url("../images/icons/plus.webp") no-repeat}
+.top-menu__item:nth-child(1)::before,.top-menu__item:nth-child(2)::before,.top-menu__item:nth-child(6)::before{background-image:url("../images/icons/right_icon.webp")}
+.menu-type__item:nth-child(1)::before,.menu-type__item:nth-child(6)::before{background-image:url("../images/icons/plus.webp")}
+.menu-course__item::before{background-image:url("../images/icons/plus.webp")}
 }
 
 }
@@ -4456,7 +4504,7 @@ body.ie ._ibg img {
  @media (max-width: 760px){
 
 @supports (-webkit-appearance:none){
-.question-program-slider__text{background:url("../images/icons/vopros_8729.webp") top center no-repeat}
+.question-program-slider__text{background-image:url("../images/icons/vopros_8729.webp")}
 }
 
 }
@@ -4472,11 +4520,10 @@ body.ie ._ibg img {
  @media (max-width: 560px){
 
 @supports (-webkit-appearance:none){
-.bottom-hero__info{background:url("../images/page/calendar_6624.webp") left center/11% no-repeat}
+.bottom-hero__info{background-image:url("../images/page/calendar_6624.webp")}
 .submenu-course__link,.submenu-type__link{background:url("")}
-.question-program-price__link{background:url("../images/icons/download2_8671.webp") left 7% no-repeat}
-.program-slider__items .slick-next{background:url("../images/icons/arrow-left.webp") center no-repeat}
-.program-slider__items .slick-prev{background:url("../images/icons/arrow-left.webp") center no-repeat}
+.program-slider__items .slick-next{background-image:url("../images/icons/arrow-left.webp")}
+.program-slider__items .slick-prev{background-image:url("../images/icons/arrow-left.webp")}
 }
 
 }
